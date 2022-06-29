@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo img {
+    position: absolute;
+    top: -8%;
+    left: -1%;
+    width: 400px;
+    height: auto;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../photos/bg-4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.table-container{
+    padding: 15% 20%;
+    margin: 0 0;
+}
+
+.heading{
+    font-size: 40px;
+    text-align: center;
+    color: #f1f1f1;
+    margin-bottom: 40px;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead{
+    background-color: #ee2828;
+}
+
+.table thead tr th{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid #dee2e685;
+}
+
+.table tbody tr td{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: #f1f1f1;
+    background-color: #3c3f44;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #dee2e685;
+}
+
+.table tbody tr td .btnp{
+    width: 130px;
+    text-decoration: none;
+    line-height: 35px;
+    display: inline-block;
+    background-color: #009E60;
+    font-weight: medium;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.table tbody tr td .btn{
+    width: 130px;
+    text-decoration: none;
+    line-height: 35px;
+    display: inline-block;
+    background-color: #FF1046;
+    font-weight: medium;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 14px;
+    opacity: 1;
+}

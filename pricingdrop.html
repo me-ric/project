@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        function goToNewPage()
+        {
+            var url = document.getElementById('list').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pricingdrop.css">
+    <title>Choose Your Collage</title>
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="./photos/logo2.png"></a>
+    </div>
+    <div class="title">
+        <h1>Select Your Collage:</h1>
+    </div>
+    <div class="form">
+        <form action="pricing.html">
+            <select name="list" id="list" accesskey="target">
+                <option value='none' selected>Choose your collage</option>
+                <option value="pricing.html">Tripura Institue Of Technology</option>
+                <option value="HCS">Holly Cross</option>
+                <option value="Techno">Techno College Of Enginnering</option>
+            </select>
+            <input type=button value="Go" onclick="goToNewPage()" />
+        </form>
+    </div>
+</body>
+</html>
